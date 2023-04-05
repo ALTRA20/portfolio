@@ -1,0 +1,120 @@
+*{
+	color: white;
+/*	background-color: black;*/
+}
+.font1{
+	color: white;
+}
+.font2{
+	color: #AEE01C;
+}
+body{
+	background-color: black!important;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	font-size: 20px;
+}
+.navLogo{
+	font-weight: bold;
+	color: #AEE01C;
+	margin-left: 15px;
+}
+.navList{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+}
+.navListItem{
+	margin: 0 15px;
+}
+.myPortfolio{
+	height: 500px;
+	background-color: black;
+/*	position: relative;*/
+}
+.myPortfolioWrapper{
+	height: inherit;
+}
+.myPortfolioTop{
+	display: flex;
+	justify-content: space-between;
+	height: inherit;
+	align-items: center;
+}
+.myPortfolioProfile{
+/*	background-color: red;*/
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.myPortfolioProfileTitle{
+	font-size: 55px;
+	padding: 0;
+	margin: 0;
+}
+.myPortfolioProfileSkill{
+	font-size: 30px;
+}
+.myPortfolioHero{
+	width: 50%;
+	position: relative;
+	height: inherit;
+}
+.myPortfolioHero > img{
+	border-radius: 5px;
+	-webkit-box-shadow: 5px 0px 28px -3px rgba(0,0,0,0.65);
+-moz-box-shadow: 5px 0px 28px -3px rgba(0,0,0,0.65);
+box-shadow: 5px 0px 28px -3px rgba(0,0,0,0.65);
+}
+img.myPortfolioHero1{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	z-index: 3;
+}
+img.myPortfolioHero2{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	position: absolute;
+	left: 180px;
+	top: 150px;
+	z-index: 2;
+}
+
+.myPortfolioAbout{
+	padding: 30px;
+}
+.myPortfolioAboutWrapper{
+	display: flex;
+}
+.myPortfolioAboutProfilePicture{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 40px;
+}
+.myPortfolioAboutBiodata{
+}
+.myPortfolioAboutBiodata label{
+	display: block;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.myPortfolioAboutBiodata label span{
+	font-weight: normal;
+}
